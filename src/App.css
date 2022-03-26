@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Tanker;
+  src: url('/public/assets/fonts/Tanker-Regular.ttf');
+}
+
+.App {
+  background-image: url('/public/assets/images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-family: Tanker;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+
+}
+
+.border-gradient {
+  border: 6px solid;
+  border-image-slice: 1;
+  border-width: 3px;
+}
+
+.border-gradient-purple {
+  border-image-source: linear-gradient(to bottom, #743ad5, #d53a9d);
+}
+.border-gradient-green {
+  border-image-source: linear-gradient(to left, #00C853, #B2FF59);
+}
+
